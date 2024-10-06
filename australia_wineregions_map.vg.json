@@ -64,7 +64,7 @@
       },
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/gcha0035/FIT3179HW-week10/main/Wine_Geographical_Indications_Australia_2023.topojson",
+          "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/main/Wine_Geographical_Indications_Australia_2023.topojson",
           "format": {
             "type": "topojson",
             "feature": "Wine_Geographical_Indications_Australia_2023"
@@ -78,7 +78,7 @@
       },
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/gcha0035/FIT3179HW-week10/main/Wine_Geographical_Indications_Australia_2023%20(1).topojson",
+          "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/main/Wine_Geographical_Indications_Australia_2023%20(1).topojson",
           "format": {
             "type": "topojson",
             "feature": "Wine_Geographical_Indications_Australia_2023 (1)"
@@ -92,7 +92,7 @@
       },
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/gcha0035/FIT3179HW-week10/main/Wine_Geographical_Indications_Australia_2023%20(2).topojson",
+          "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/main/Wine_Geographical_Indications_Australia_2023%20(2).topojson",
           "format": {
             "type": "topojson",
             "feature": "Wine_Geographical_Indications_Australia_2023 (2)"

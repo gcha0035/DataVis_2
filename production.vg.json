@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/gcha0035/FIT3179HW-week10/refs/heads/main/Production_over_Years.csv",
+    "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/refs/heads/main/Production_over_Years.csv",
     "format": {
       "type": "csv"
     }
