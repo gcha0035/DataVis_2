@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Australia Wine Production 2012 - 2023",
   "data": {
     "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/refs/heads/main/Production_over_Years.csv",
     "format": {
