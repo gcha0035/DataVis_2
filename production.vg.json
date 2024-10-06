@@ -1,0 +1,127 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/gcha0035/FIT3179HW-week10/refs/heads/main/Production_over_Years.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "width": 600,
+  "height": 300,
+  "layer": [
+    {
+      "mark": "area",
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "axis": {
+            "title": "Year"
+          }
+        },
+        "y": {
+          "field": "Total (Mill Ltr)",
+          "type": "quantitative",
+          "axis": {
+            "title": "Production Volume (Mill Ltr)"
+          }
+        },
+        "color": {
+          "value": "#ba4984"
+        },
+        "opacity": {"value": 0.7}
+      }
+    },
+    {
+      "mark": "area",
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "axis": {
+            "title": "Year"
+          }
+        },
+        "y": {
+          "field": "Red Wine (Mill Ltr)",
+          "type": "quantitative",
+          "axis": {
+            "title": "Production Volume (Mill Ltr)"
+          }
+        },
+        "color": {
+          "value": "#9B1B30"
+        },
+        "opacity": {"value": 0.7}
+      }
+    },
+    {
+      "mark": "area",
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "White Wine  (Mill Ltr)",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "#ba4984"
+        },
+        "opacity": {"value": 0.7}
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "stroke": "#9B1B30",
+        "size": 50
+      },
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "Total (Mill Ltr)",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {"field": "Year", "title": "Year"},
+          {"field": "Red Wine (Mill Ltr)", "title": "Red Wine Volume (Mill Ltr)"},
+          {"field": "White Wine  (Mill Ltr)", "title": "White Wine Volume (Mill Ltr)"},
+          {"field": "Total (Mill Ltr)", "title": "Total Volume (Mill Ltr)"}
+        ]
+      }
+    },{
+      "transform": [
+        {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Total (Mill Ltr)", "order": "descending"}]
+        },
+        {
+          "filter": "datum.ranking == 1"
+        },
+        {
+          "calculate": "'The highest volume of wine production is in 2020-21 due to favorable weather conditions and increased vineyard area.'",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": 150,
+        "dy": -125,
+        "baseline": "middle",
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "text_annotation"}
+      }
+    }
+    
+  ]
+}
+ 
