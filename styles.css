@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     background: #E3D6C7;
     color: #7A2A3A;
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', monospace;
 }
 
 .shadow-box {
@@ -28,6 +28,12 @@ html, body {
     justify-content: space-between;
     margin: 20px;
 }
+
+.container1{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .chart-box, .text-box {
     flex: 1;
     padding: 10px;
