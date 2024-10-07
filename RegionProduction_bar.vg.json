@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/refs/heads/main/Wineproduction_June2024.csv"
+    },
+    "mark": "bar",
+    "width":350,
+    "encoding": {
+      "x": {
+        "field": "State",
+        "type": "nominal",
+        "axis": {
+          "title": "State"
+        }
+      },
+      "y": {
+        "aggregate": "sum",
+        "field": "Volume (L)",
+        "type": "quantitative",
+        "axis": {
+          "title": "Total Volume Produced(L)"
+        }
+      },
+      "color": {
+        "field": "Geographical Indication",
+        "type": "nominal",
+        "legend": {
+          "title": "Geographical Indication"
+        }
+      },
+      "tooltip": [
+        {"field": "Geographical Indication", "type": "nominal", "title": "Region"},
+        {"field": "Volume (L)", "type": "quantitative", "title": "Volume Produced(L)"}
+      ]
+    },
+    "config": {
+      "view": {
+        "stroke": "transparent"
+      },
+      "axis": {
+        "grid": false
+      }
+    }
+  }
+  
