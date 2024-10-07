@@ -34,13 +34,18 @@ html, body {
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    background-color: #E3D6C7;
+    background-color: white;
 }
 .chart-box {
-    width: 60%;
+    width: 80%;
 }
 .text-box {
-    width: 40%;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 h1 {
     text-align: center;

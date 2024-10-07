@@ -106,7 +106,7 @@
           "filter": "datum.ranking == 1"
         },
         {
-          "calculate": "'The highest volume of wine production is in 2020-21 due to favorable weather conditions and increased vineyard area.'",
+          "calculate": "'Peak production due to favorable weather conditions and increased vineyard area.'",
           "as": "text_annotation"
         }
       ],
