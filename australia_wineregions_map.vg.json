@@ -1,15 +1,16 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title":"Wine Regions of Australia",
+    "title":"Wine Regions of Australia 2023",
     "width": 600,
     "height": 400,
     "params": [
       {
         "name": "center_to",
-        "value": [145, -39],
+        "value": [133, -30],
         "bind": {
           "input": "select",
           "options": [
+            [133, -30],
             [145, -39],
             [153, -28],
             [134.5, -33],
@@ -18,6 +19,7 @@
             [115.8, -30]
           ],
           "labels": [
+            "Australia",
             "Victoria",
             "Queensland",
             "South Australia",
@@ -27,12 +29,23 @@
           ],
           "name": "Map Centre: "
         }
-      }
+      },
+      {
+        "name": "zoom_level",
+        "value": 750,
+        "bind": {
+        "input": "range",
+        "min": 750,
+        "max": 1500,
+        "step": 100,
+        "name": "Zoom: "
+        }
+        }
     ],
     "projection": {
       "type": "mercator",
       "center": {"expr": "center_to"},
-      "scale": 2000 
+      "scale": {"expr": "zoom_level"} 
     },
     "layer": [
       {
@@ -122,7 +135,9 @@
             "title": "State"
           },
           "tooltip": [
-            {"field": "properties.GI_NAME", "type": "nominal", "title": "Region Name"}
+            {"field": "properties.GI_NAME", "type": "nominal", "title": "Region Name"},
+            {"field": "properties.VINE_AREA_HA", "type": "nominal", "title": "Vineyard (Ha)"},
+            {"field": "properties.MEAN_JAN_TEMP", "type": "nominal", "title": "Avg. Temp(C)"}
           ]
         }
       }
