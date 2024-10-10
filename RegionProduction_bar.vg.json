@@ -14,8 +14,8 @@
       "fields": ["State"],
       "bind": {
         "input": "select",
-        "options": [null, "VIC", "SA", "NSW", "WA", "TAS", "QLD"],
-        "labels": ["All States", "Victoria", "South Australia", "New South Wales", "Western Australia", "Tasmania", "Queensland"],
+        "options": [null, "VIC", "SA", "NSW", "WA", "TAS", "QLD","Other"],
+        "labels": ["All States", "Victoria", "South Australia", "New South Wales", "Western Australia", "Tasmania", "Queensland", "Other"],
         "name": "Select State: "
       }
     }
@@ -39,6 +39,9 @@
     "color": {
       "field": "Geographical Indication",
       "type": "nominal",
+      "scale": {
+        "range": ["#800080", "#8B0000", "#4B0082", "#800000", "#D2B48C", "#DEB887", "#9932CC"]
+      },
       "legend": null
     },
     "tooltip": [
