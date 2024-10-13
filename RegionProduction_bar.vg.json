@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title":"Wine Production of Australia's Regions 2024",
   "data": {
     "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/refs/heads/main/Wineproduction_June2024.csv",
     "format": {
@@ -73,3 +74,5 @@
     }
   }
 }
+
+ 
