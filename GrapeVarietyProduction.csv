@@ -1,151 +1,151 @@
-﻿Grape Variety,Volume (L),Category
-Shiraz,"152,333,542",Shiraz
-Chardonnay,"144,806,093",Chardonnay
-Cabernet Sauvignon,"89,542,429",Cabernet Sauvignon
-Variety unspecified,"62,307,974",Variety unspecified
-Pinot Gris/Grigio,"45,226,101",Pinot Gris/Grigio
-Merlot,"39,771,703",Merlot
-Sauvignon Blanc,"27,064,932",Sauvignon Blanc
-Colombard,"8,873,161",Colombard
-Muscat Gordo Blanco,"7,066,300",Muscat Gordo Blanco
-Semillon,"6,625,239",Semillon
-Pinot Noir,"5,975,159",Pinot Noir
-Petit Verdot,"3,804,533",Petit Verdot
-Riesling,"3,115,097",Riesling
-Muscat à petits grains blancs,"2,928,719",Muscat à petits grains blancs
-Grenache,"2,732,814",Grenache
-Malbec,"2,485,566",Malbec
-Durif/Petite Sirah,"2,352,699",Durif/Petite Sirah
-Ruby Cabernet,"1,696,102",Ruby Cabernet
-Rubired,"1,604,559",Rubired
-Mataro/Mourvedre,"1,186,523",Mataro/Mourvedre
-Prosecco/Glera,"1,174,921",Prosecco/Glera
-Viognier,"957,551",Others
-Canada Muscat,"842,210",Others
-Gewürztraminer,"680,768",Others
-Tempranillo,"630,296",Others
-Sangiovese,"425,463",Others
-Lambrusco Maestri,"382,184",Others
-Savagnin,"269,469",Others
-Chenin Blanc,"234,006",Others
-Vermentino,"218,288",Others
-Cienna,"191,441",Others
-Fiano,"178,483",Others
-Verdelho,"146,338",Others
-Moscato Giallo,"145,748",Others
-Cabernet Franc,"130,465",Others
-Tarrango,"98,686",Others
-Dolcetto,"77,258",Others
-Orange Muscat,"72,942",Others
-Montepulciano,"72,833",Others
-Barbera,"61,183",Others
-Sagrantino,"60,134",Others
-Nero d'Avola,"54,076",Others
-Grüner Veltliner,"52,353",Others
-Muscat à petits grains rouges,"49,568",Others
-Marsanne,"48,257",Others
-Tyrian,"44,010",Others
-Roussanne,"39,144",Others
-Muscat à petits grains roses,"36,367",Others
-Saperavi,"35,177",Others
-Zinfandel/Primitivo,"30,609",Others
-Zweigelt,"26,861",Others
-Nebbiolo,"25,997",Others
-Bianco d'Alessano,"23,305",Others
-Pinot Meunier,"22,827",Others
-Trebbiano,"21,761",Others
-Muscat à petits grains noirs,"21,335",Others
-Touriga Nacional,"20,472",Others
-Grenache Blanc,"19,535",Others
-Negroamaro,"18,959",Others
-Sultana,"18,758",Others
-Carmenère,"18,619",Others
-Lagrein,"16,585",Others
-Gamay,"13,299",Others
-Verdejo,"11,709",Others
-Arneis,"11,030",Others
-Pinot Blanc,"9,667",Others
-Carignan,"8,288",Others
-Aglianico,"8,262",Others
-Graciano,"8,144",Others
-Cinsaut,"7,361",Others
-Tannat,"6,442",Others
-Assyrtiko,"6,289",Others
-Muscadelle,"5,969",Others
-Brachetto,"4,999",Others
-Crouchen,"3,884",Others
-Chambourcin,"3,718",Others
-Teroldego,"3,376",Others
-Sauvignon Gris,"3,068",Others
-Greco,"2,528",Others
-Alicante Bouschet,"2,348",Others
-Ondenc,"2,304",Others
-Malvasia Bianca,"1,872",Others
-Mencia,"1,831",Others
-Pedro Ximenez,"1,711",Others
-Clairette,"1,648",Others
-Arinto,"1,606",Others
-Gros Manseng,"1,540",Others
-Ribolla Gialla,"1,481",Others
-Albarino,"1,397",Others
-Flora,"1,384",Others
-Pecorino,"1,375",Others
-Kerner,"1,104",Others
-Palomino,"1,087",Others
-Tinta Câo,"1,069",Others
-Petit Meslier,"1,030",Others
-Doradillo,982,Others
-Godello,900,Others
-Verduzzo,891,Others
-Inzolia,873,Others
-Counoise,844,Others
-Schioppettino,839,Others
-Cascade,774,Others
-Souzao,704,Others
-Nero di Troia,669,Others
-Trousseau,658,Others
-Taminga,609,Others
-Sun Muscat,598,Others
-Garganega,583,Others
-Tinta Barroca,538,Others
-Mammolo,486,Others
-Piquepoul Blanc,454,Others
-Rubienne,440,Others
-Pignoletto,436,Others
-Blaufrankisch,383,Others
-Abouriou,369,Others
-Prieto Picudo,309,Others
-Biancone,286,Others
-Melon,284,Others
-Bonvedro,283,Others
-Schönburger,277,Others
-Grillo,249,Others
-Waltham Cross,241,Others
-Touriga Franca,231,Others
-Saint Macaire,210,Others
-Malvasia Istria,186,Others
-Tinta Amarela,184,Others
-Morio Muscat/Morio-Muskat,180,Others
-Alfrocheiro,168,Others
-Nosiola,146,Others
-Trollinger,99,Others
-Piedirosso,91,Others
-Canaiolo,80,Others
-Bourboulenc,77,Others
-Tinta Negra Mole,67,Others
-Falanghina,66,Others
-Silvaner,60,Others
-Fernao Pires,52,Others
-Crystal,45,Others
-Arvine Petite/Petite Arvine,43,Others
-Picolit,41,Others
-Isabella,35,Others
-Mueller‐Thurgau/Muller-Thurgau,32,Others
-Colorino,30,Others
-Alvarelhao,10,Others
-Mondeuse,10,Others
-Verdicchio Bianco,9,Others
-Aligoté,5,Others
-Muscat Menudo Blanco,5,Others
-Aléatico,3,Others
-Aranel,2,Others
+﻿Grape Variety, Volume (L) ,Category
+Shiraz," 152,333,542.00 ",Shiraz
+Chardonnay," 144,806,093.00 ",Chardonnay
+Cabernet Sauvignon," 89,542,429.00 ",Cabernet Sauvignon
+Variety unspecified," 62,307,974.00 ",Variety unspecified
+Pinot Gris/Grigio," 45,226,101.00 ",Pinot Gris/Grigio
+Merlot," 39,771,703.00 ",Merlot
+Sauvignon Blanc," 27,064,932.00 ",Sauvignon Blanc
+Colombard," 8,873,161.00 ",Colombard
+Muscat Gordo Blanco," 7,066,300.00 ",Muscat Gordo Blanco
+Semillon," 6,625,239.00 ",Semillon
+Pinot Noir," 5,975,159.00 ",Pinot Noir
+Petit Verdot," 3,804,533.00 ",Petit Verdot
+Riesling," 3,115,097.00 ",Riesling
+Muscat à petits grains blancs," 2,928,719.00 ",Muscat à petits grains blancs
+Grenache," 2,732,814.00 ",Grenache
+Malbec," 2,485,566.00 ",Malbec
+Durif/Petite Sirah," 2,352,699.00 ",Durif/Petite Sirah
+Ruby Cabernet," 1,696,102.00 ",Ruby Cabernet
+Rubired," 1,604,559.00 ",Rubired
+Mataro/Mourvedre," 1,186,523.00 ",Mataro/Mourvedre
+Prosecco/Glera," 1,174,921.00 ",Prosecco/Glera
+Viognier," 957,551.00 ",Others
+Canada Muscat," 842,210.00 ",Others
+Gewürztraminer," 680,768.00 ",Others
+Tempranillo," 630,296.00 ",Others
+Sangiovese," 425,463.00 ",Others
+Lambrusco Maestri," 382,184.00 ",Others
+Savagnin," 269,469.00 ",Others
+Chenin Blanc," 234,006.00 ",Others
+Vermentino," 218,288.00 ",Others
+Cienna," 191,441.00 ",Others
+Fiano," 178,483.00 ",Others
+Verdelho," 146,338.00 ",Others
+Moscato Giallo," 145,748.00 ",Others
+Cabernet Franc," 130,465.00 ",Others
+Tarrango," 98,686.00 ",Others
+Dolcetto," 77,258.00 ",Others
+Orange Muscat," 72,942.00 ",Others
+Montepulciano," 72,833.00 ",Others
+Barbera," 61,183.00 ",Others
+Sagrantino," 60,134.00 ",Others
+Nero d'Avola," 54,076.00 ",Others
+Grüner Veltliner," 52,353.00 ",Others
+Muscat à petits grains rouges," 49,568.00 ",Others
+Marsanne," 48,257.00 ",Others
+Tyrian," 44,010.00 ",Others
+Roussanne," 39,144.00 ",Others
+Muscat à petits grains roses," 36,367.00 ",Others
+Saperavi," 35,177.00 ",Others
+Zinfandel/Primitivo," 30,609.00 ",Others
+Zweigelt," 26,861.00 ",Others
+Nebbiolo," 25,997.00 ",Others
+Bianco d'Alessano," 23,305.00 ",Others
+Pinot Meunier," 22,827.00 ",Others
+Trebbiano," 21,761.00 ",Others
+Muscat à petits grains noirs," 21,335.00 ",Others
+Touriga Nacional," 20,472.00 ",Others
+Grenache Blanc," 19,535.00 ",Others
+Negroamaro," 18,959.00 ",Others
+Sultana," 18,758.00 ",Others
+Carmenère," 18,619.00 ",Others
+Lagrein," 16,585.00 ",Others
+Gamay," 13,299.00 ",Others
+Verdejo," 11,709.00 ",Others
+Arneis," 11,030.00 ",Others
+Pinot Blanc," 9,667.00 ",Others
+Carignan," 8,288.00 ",Others
+Aglianico," 8,262.00 ",Others
+Graciano," 8,144.00 ",Others
+Cinsaut," 7,361.00 ",Others
+Tannat," 6,442.00 ",Others
+Assyrtiko," 6,289.00 ",Others
+Muscadelle," 5,969.00 ",Others
+Brachetto," 4,999.00 ",Others
+Crouchen," 3,884.00 ",Others
+Chambourcin," 3,718.00 ",Others
+Teroldego," 3,376.00 ",Others
+Sauvignon Gris," 3,068.00 ",Others
+Greco," 2,528.00 ",Others
+Alicante Bouschet," 2,348.00 ",Others
+Ondenc," 2,304.00 ",Others
+Malvasia Bianca," 1,872.00 ",Others
+Mencia," 1,831.00 ",Others
+Pedro Ximenez," 1,711.00 ",Others
+Clairette," 1,648.00 ",Others
+Arinto," 1,606.00 ",Others
+Gros Manseng," 1,540.00 ",Others
+Ribolla Gialla," 1,481.00 ",Others
+Albarino," 1,397.00 ",Others
+Flora," 1,384.00 ",Others
+Pecorino," 1,375.00 ",Others
+Kerner," 1,104.00 ",Others
+Palomino," 1,087.00 ",Others
+Tinta Câo," 1,069.00 ",Others
+Petit Meslier," 1,030.00 ",Others
+Doradillo, 982.00 ,Others
+Godello, 900.00 ,Others
+Verduzzo, 891.00 ,Others
+Inzolia, 873.00 ,Others
+Counoise, 844.00 ,Others
+Schioppettino, 839.00 ,Others
+Cascade, 774.00 ,Others
+Souzao, 704.00 ,Others
+Nero di Troia, 669.00 ,Others
+Trousseau, 658.00 ,Others
+Taminga, 609.00 ,Others
+Sun Muscat, 598.00 ,Others
+Garganega, 583.00 ,Others
+Tinta Barroca, 538.00 ,Others
+Mammolo, 486.00 ,Others
+Piquepoul Blanc, 454.00 ,Others
+Rubienne, 440.00 ,Others
+Pignoletto, 436.00 ,Others
+Blaufrankisch, 383.00 ,Others
+Abouriou, 369.00 ,Others
+Prieto Picudo, 309.00 ,Others
+Biancone, 286.00 ,Others
+Melon, 284.00 ,Others
+Bonvedro, 283.00 ,Others
+Schönburger, 277.00 ,Others
+Grillo, 249.00 ,Others
+Waltham Cross, 241.00 ,Others
+Touriga Franca, 231.00 ,Others
+Saint Macaire, 210.00 ,Others
+Malvasia Istria, 186.00 ,Others
+Tinta Amarela, 184.00 ,Others
+Morio Muscat/Morio-Muskat, 180.00 ,Others
+Alfrocheiro, 168.00 ,Others
+Nosiola, 146.00 ,Others
+Trollinger, 99.00 ,Others
+Piedirosso, 91.00 ,Others
+Canaiolo, 80.00 ,Others
+Bourboulenc, 77.00 ,Others
+Tinta Negra Mole, 67.00 ,Others
+Falanghina, 66.00 ,Others
+Silvaner, 60.00 ,Others
+Fernao Pires, 52.00 ,Others
+Crystal, 45.00 ,Others
+Arvine Petite/Petite Arvine, 43.00 ,Others
+Picolit, 41.00 ,Others
+Isabella, 35.00 ,Others
+Mueller‐Thurgau/Muller-Thurgau, 32.00 ,Others
+Colorino, 30.00 ,Others
+Alvarelhao, 10.00 ,Others
+Mondeuse, 10.00 ,Others
+Verdicchio Bianco, 9.00 ,Others
+Aligoté, 5.00 ,Others
+Muscat Menudo Blanco, 5.00 ,Others
+Aléatico, 3.00 ,Others
+Aranel, 2.00 ,Others
