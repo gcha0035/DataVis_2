@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Test Data for Grape Variety Production Volume",
+    "data": {
+      "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/refs/heads/main/GrapeVarietyProduction.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Grape Variety",
+        "type": "nominal",
+        "title": "Grape Variety"
+      },
+      "y": {
+        "aggregate": "sum",
+        "field": "Volume (L)",
+        "type": "quantitative",
+        "title": "Total Volume Produced (L)"
+      }
+    },
+    "title": "Grape Variety Production Volume"
+  }
+  
