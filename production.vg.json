@@ -68,7 +68,7 @@
           "type": "quantitative"
         },
         "color": {
-          "value": "#755a7d"
+          "value": "#D2B48C"
         },
         "opacity": {"value": 0.7}
       }
@@ -130,10 +130,10 @@
       "type": "nominal",
       "scale": {
         "domain": ["Total Wine", "Red Wine", "White Wine"],
-        "range": ["#ba4984", "#9B1B30", "#755a7d"]
+        "range": ["#ba4984", "#9B1B30", "#D2B48C"]
       },
       "legend": {
-        "title": "Wine Type"
+        "title": "Categories"
       }
     }
   }

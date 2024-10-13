@@ -1,26 +1,82 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Test Data for Grape Variety Production Volume",
-    "data": {
-      "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/refs/heads/main/GrapeVarietyProduction.csv",
-      "format": {
-        "type": "csv"
-      }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Grape Variety Production Volume",
+    "title": "Top 22 Grape-Variety by Production",
+  "width": 350,
+  "height": 150,
+  "data": {
+    "values": [
+      {"Grape Variety": "Shiraz", "Volume (L)": 152333542},
+      {"Grape Variety": "Chardonnay", "Volume (L)": 144806093},
+      {"Grape Variety": "Cabernet Sauvignon", "Volume (L)": 89542429},
+      {"Grape Variety": "Variety unspecified", "Volume (L)": 62307974},
+      {"Grape Variety": "Pinot Gris/Grigio", "Volume (L)": 45226101},
+      {"Grape Variety": "Merlot", "Volume (L)": 39771703},
+      {"Grape Variety": "Sauvignon Blanc", "Volume (L)": 27064932},
+      {"Grape Variety": "Colombard", "Volume (L)": 8873161},
+      {"Grape Variety": "Muscat Gordo Blanco", "Volume (L)": 7066300},
+      {"Grape Variety": "Semillon", "Volume (L)": 6625239},
+      {"Grape Variety": "Pinot Noir", "Volume (L)": 5975159},
+      {"Grape Variety": "Petit Verdot", "Volume (L)": 3804533},
+      {"Grape Variety": "Riesling", "Volume (L)": 3115097},
+      {"Grape Variety": "Muscat à petits grains blancs", "Volume (L)": 2928719},
+      {"Grape Variety": "Grenache", "Volume (L)": 2732814},
+      {"Grape Variety": "Malbec", "Volume (L)": 2485566},
+      {"Grape Variety": "Durif/Petite Sirah", "Volume (L)": 2352699},
+      {"Grape Variety": "Ruby Cabernet", "Volume (L)": 1696102},
+      {"Grape Variety": "Rubired", "Volume (L)": 1604559},
+      {"Grape Variety": "Mataro/Mourvedre", "Volume (L)": 1186523},
+      {"Grape Variety": "Prosecco/Glera", "Volume (L)": 1174921},
+      {"Grape Variety": "Others", "Volume (L)": 6680267}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Grape Variety",
+      "type": "nominal",
+      "title": "Grape Variety"
     },
-    "mark": "bar",
-    "encoding": {
-      "x": {
-        "field": "Grape Variety",
-        "type": "nominal",
-        "title": "Grape Variety"
+    "y": {
+      "field": "Volume (L)",
+      "type": "quantitative",
+      "title": "Volume (Liters)"
+    },
+    "color": {
+      "field": "Grape Variety",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Shiraz", 
+          "Chardonnay", 
+          "Cabernet Sauvignon", 
+          "Variety unspecified", 
+          "Pinot Gris/Grigio", 
+          "Merlot", 
+          "Sauvignon Blanc", 
+          "Colombard", 
+          "Muscat Gordo Blanco", 
+          "Semillon", 
+          "Pinot Noir", 
+          "Petit Verdot", 
+          "Riesling", 
+          "Muscat à petits grains blancs", 
+          "Grenache", 
+          "Malbec", 
+          "Durif/Petite Sirah", 
+          "Ruby Cabernet", 
+          "Rubired", 
+          "Mataro/Mourvedre", 
+          "Prosecco/Glera", 
+          "Others"
+        ],
+        "range": ["#800080", "#8B0000", "#4B0082", "#800000", "#D2B48C", "#DEB887", "#9932CC"]
       },
-      "y": {
-        "aggregate": "sum",
-        "field": "Volume (L)",
-        "type": "quantitative",
-        "title": "Total Volume Produced (L)"
-      }
+      "legend": null
     },
-    "title": "Grape Variety Production Volume"
+    "tooltip": [
+      {"field": "Grape Variety", "type": "nominal", "title": "Grape Variety"},
+      {"field": "Volume (L)", "type": "quantitative", "title": "Volume (Liters)", "format": ",.0f"}
+    ]
   }
-  
+}
