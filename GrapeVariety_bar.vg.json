@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Grape Variety Production Volume",
-    "title": "Top 22 Grape-Variety by Production",
+    "title": "Top 22 Grape-Variety by Production in 2024",
   "width": 350,
   "height": 150,
   "data": {
