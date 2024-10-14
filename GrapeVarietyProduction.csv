@@ -1,23 +1,22 @@
-﻿Grape Variety, Volume (L) 
-Shiraz,152333542
-Chardonnay,144806093
-Cabernet Sauvignon,89542429
-Variety unspecified,62307974
-Pinot Gris,45226101
-Merlot,39771703
-Sauvignon Blanc,27064932
-Colombard,8873161
-Muscat Gordo Blanco,7066300
-Semillon,6625239
-Pinot Noir,5975159
-Petit Verdot,3804533
-Riesling,3115097
-Muscat à petits grains blancs,2928719
-Grenache,2732814
-Malbec,2485566
-Durif,2352699
-Ruby Cabernet,1696102
-Rubired,1604559
-Mataro,1186523
-Prosecco,1174921
-Others,6680267
+﻿Grape Variety, Volume (L) ,Wine Type
+Shiraz,"152,333,542",Red
+Chardonnay,"144,806,093",White
+Cabernet Sauvignon,"89,542,429",Red
+Variety unspecified,"62,307,974",Unknown
+Pinot Gris/Grigio,"45,226,101",White
+Merlot,"39,771,703",Red
+Sauvignon Blanc,"27,064,932",White
+Colombard,"8,873,161",White
+Muscat Gordo Blanco,"7,066,300",White
+Semillon,"6,625,239",White
+Pinot Noir,"5,975,159",Red
+Petit Verdot,"3,804,533",Red
+Riesling,"3,115,097",White
+Muscat à petits grains blancs,"2,928,719",White
+Grenache,"2,732,814",Red
+Malbec,"2,485,566",Red
+Durif/Petite Sirah,"2,352,699",Red
+Ruby Cabernet,"1,696,102",Red
+Rubired,"1,604,559",Red
+Mataro/Mourvèdre,"1,186,523",Red
+Prosecco/Glera,"1,174,921",White
