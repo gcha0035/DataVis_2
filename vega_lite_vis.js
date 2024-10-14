@@ -13,3 +13,6 @@ vegaEmbed("#bar2", vg_4, { actions: false }).then(function(result) {
 var vg_5 = "ExportDest.vg.json";
 vegaEmbed("#pie", vg_5, { actions: false }).then(function(result) {
 }).catch(console.error);
+var vg_6 = "ExportValues.vg.json";
+vegaEmbed("#plot", vg_6, { actions: false }).then(function(result) {
+}).catch(console.error);

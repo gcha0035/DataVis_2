@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Export Values by Country",
+    "data": {
+      "values": [
+        {"Country": "China mainland", "Export Value": 400194704.62, "Percentage": 18},
+        {"Country": "United States of America", "Export Value": 356722617.93, "Percentage": 16},
+        {"Country": "United Kingdom", "Export Value": 352617398.33, "Percentage": 16},
+        {"Country": "Hong Kong", "Export Value": 274952601.09, "Percentage": 13},
+        {"Country": "Canada", "Export Value": 146100830.94, "Percentage": 7},
+        {"Country": "New Zealand", "Export Value": 99393710.34, "Percentage": 5},
+        {"Country": "Singapore", "Export Value": 99052305.11, "Percentage": 5},
+        {"Country": "Thailand", "Export Value": 58329400.58, "Percentage": 3},
+        {"Country": "Japan", "Export Value": 45840959.24, "Percentage": 2},
+        {"Country": "Malaysia", "Export Value": 34355885.95, "Percentage": 2},
+        {"Country": "Denmark", "Export Value": 28992095.67, "Percentage": 1},
+        {"Country": "South Korea", "Export Value": 28476855.87, "Percentage": 1},
+        {"Country": "Germany", "Export Value": 28169873.93, "Percentage": 1},
+        {"Country": "Netherlands", "Export Value": 25586637.63, "Percentage": 1},
+        {"Country": "Taiwan", "Export Value": 25397229.69, "Percentage": 1},
+        {"Country": "Sweden", "Export Value": 21326807.61, "Percentage": 1},
+        {"Country": "United Arab Emirates", "Export Value": 17624448.92, "Percentage": 1},
+        {"Country": "Belgium", "Export Value": 17213122.07, "Percentage": 1},
+        {"Country": "France", "Export Value": 14384008.90, "Percentage": 1},
+        {"Country": "Philippines", "Export Value": 13728275.06, "Percentage": 1},
+        {"Country": "Others", "Export Value": 98728529.44, "Percentage": 5}
+      ]
+    },
+    "mark": "arc",
+    "encoding": {
+      "theta": {
+        "field": "Export Value",
+        "type": "quantitative"
+      },
+      "color": {
+        "field": "Country",
+        "type": "nominal",
+        "scale": {
+          "scheme": "category20"
+        }
+      },
+      "tooltip": [
+        {"field": "Country", "title": "Country"},
+        {"field": "Export Value", "title": "Export Value", "format": ",.2f"},
+        {"field": "Percentage", "title": "Percentage", "format": ".0f"}
+      ]
+    },
+    "view": {
+      "stroke": null
+    },
+    "layer": [
+      {
+        "mark": "arc",
+        "encoding": {
+          "theta": {"field": "Export Value"}
+        }
+      }
+    ]
+  }
+  
