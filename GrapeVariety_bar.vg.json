@@ -8,12 +8,22 @@
       "type": "csv"
     }
   },
+  "selection": {
+    "highlight": {
+      "type": "multi",
+      "fields": ["Wine Type"],
+      "bind": "legend"
+    }
+  },
   "mark": "bar",
   "encoding": {
     "x": {
       "field": "Grape Variety",
       "type": "nominal",
-      "title": "Grape Variety"
+      "title": "Grape Variety",
+      "axis": {
+        "labelFontSize": 10
+      }
     },
     "y": {
       "aggregate": "sum",
@@ -26,9 +36,16 @@
       "type": "nominal",
       "scale": {
         "domain": ["Red", "White", "Unknown"],
-        "range": ["#9932CC", "#DEB887", "grey"]
+        "range": ["#9B1B30", "#DEB887", "grey"]
       },
       "title": "Wine Type"
+    },
+    "opacity": {
+      "condition": {
+        "selection": "highlight",
+        "value": 1
+      },
+      "value": 0.2
     },
     "tooltip": [
       {"field": "Grape Variety", "type": "nominal", "title": "Grape Variety"},
@@ -41,5 +58,10 @@
         "format": ","
       }
     ]
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
   }
 }
