@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Grape Variety Production Volume in 2024",
   "title": "Top 20 Grape Variety Production Volume",
+  "width": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/refs/heads/main/GrapeVarietyProduction.csv",
     "format": {
