@@ -5,6 +5,12 @@
     "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/main/WineExports.csv",
     "format": {"type": "csv"}
   },
+  "transform": [
+    {
+      "calculate": "year(datum['Month year ending'])",
+      "as": "Year"
+    }
+  ],
   "mark": "point",
   "encoding": {
     "x": {
@@ -27,12 +33,19 @@
       }
     },
     "color": {
-      "field": "Month year ending",
+      "field": "Year",
       "type": "nominal",
       "title": "Year",
       "scale": {
         "scheme": "category10"
       }
+    },
+    "opacity": {
+      "condition": {
+        "test": "datum.Year <= yearSlider",
+        "value": 1
+      },
+      "value": 0
     },
     "tooltip": [
       {"field": "Month year ending", "title": "Year"},
@@ -40,7 +53,17 @@
       {"field": "Volume (L)", "title": "Volume (L)", "format": ",.0f"}
     ]
   },
-  "view": {
-    "stroke": null
-  }
+  "params": [
+    {
+      "name": "yearSlider",
+      "value": 2010,
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2024,
+        "step": 1,
+        "name": "Year"
+      }
+    }
+  ]
 }
