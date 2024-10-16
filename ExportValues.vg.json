@@ -1,61 +1,46 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Scatter Plot of Value vs Volume Over Time",
-    "data": {
-      "values": [
-        {"Value": 1974742387.05, "Volume": 733798062.8, "Month year ending": 2011},
-        {"Value": 1879535353.01, "Volume": 719015104, "Month year ending": 2012},
-        {"Value": 1848914397.45, "Volume": 707710707.1, "Month year ending": 2013},
-        {"Value": 1810599535.91, "Volume": 695658457.5, "Month year ending": 2014},
-        {"Value": 1892689470.62, "Volume": 724499027.7, "Month year ending": 2015},
-        {"Value": 2110456239.89, "Volume": 728505237.5, "Month year ending": 2016},
-        {"Value": 2307996766.14, "Volume": 777616274.1, "Month year ending": 2017},
-        {"Value": 2759331278.75, "Volume": 852034292.8, "Month year ending": 2018},
-        {"Value": 2865363591.41, "Volume": 801176389.2, "Month year ending": 2019},
-        {"Value": 2840167861.80, "Volume": 729680113.6, "Month year ending": 2020},
-        {"Value": 2559221554.98, "Volume": 692870143.6, "Month year ending": 2021},
-        {"Value": 2082305101.72, "Volume": 625224894.3, "Month year ending": 2022},
-        {"Value": 1864999387.01, "Volume": 620711981.2, "Month year ending": 2023},
-        {"Value": 2189307195.80, "Volume": 619354436.4, "Month year ending": 2024}
-      ]
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Scatter Plot of Value vs Volume Over Time",
+  "data": {
+    "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/main/WineExports.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {
+      "field": "Volume (L)",
+      "type": "quantitative",
+      "title": "Volume (L)",
+      "scale": {
+        "domain": [600000000, 900000000]
+      }
     },
-    "mark": "point",
-    "encoding": {
-      "x": {
-        "field": "Volume",
-        "type": "quantitative",
-        "title": "Volume (L)",
-        "scale": {
-          "domain": [600000000, 900000000]
-        }
+    "y": {
+      "field": "Value ($)",
+      "type": "quantitative",
+      "title": "Value ($)",
+      "scale": {
+        "domain": [1700000000, 2900000000]
       },
-      "y": {
-        "field": "Value",
-        "type": "quantitative",
-        "title": "Value ($)",
-        "scale": {
-          "domain": [1700000000, 2900000000]
-        },
-        "axis": {
-          "format": "$,.0f"
-        }
-      },
-      "color": {
-        "field": "Month year ending",
-        "type": "nominal",
-        "title": "Year",
-        "scale": {
-          "scheme": "category10"
-        }
-      },
-      "tooltip": [
-        {"field": "Month year ending", "title": "Year"},
-        {"field": "Value", "title": "Value ($)", "format": "$,.0f"},
-        {"field": "Volume", "title": "Volume (L)"}
-      ]
+      "axis": {
+        "format": "$,.0f"
+      }
     },
-    "view": {
-      "stroke": null
-    }
+    "color": {
+      "field": "Month year ending",
+      "type": "nominal",
+      "title": "Year",
+      "scale": {
+        "scheme": "category10"
+      }
+    },
+    "tooltip": [
+      {"field": "Month year ending", "title": "Year"},
+      {"field": "Value ($)", "title": "Value ($)", "format": "$,.0f"},
+      {"field": "Volume (L)", "title": "Volume (L)", "format": ",.0f"}
+    ]
+  },
+  "view": {
+    "stroke": null
   }
-  
+}
