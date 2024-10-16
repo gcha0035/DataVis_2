@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Export Values by Country",
+  "title": "Export Destinations in 2024 by Country",
   "data": {
     "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/refs/heads/main/DestinationMarket.csv",
     "format": {"type": "csv"}

@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Scatter Plot of Value vs Volume Over Time",
+  "title": "Wine Export Values (2011 - 2024)",
   "data": {
     "url": "https://raw.githubusercontent.com/gcha0035/DataVis_2/main/WineExports.csv",
     "format": {"type": "csv"}
